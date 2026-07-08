@@ -10,17 +10,17 @@ export type MySocialLinkDataProps = {
 };
 
 export const mySocialLinkData: MySocialLinkDataProps = {
-  github: "https://github.com",
+  github: "https://github.com/SENAYIT/",
 
-  linkedin: "https://linkedin.com",
+  linkedin: "www.linkedin.com/in/senayit-awoke-021094229",
 
-  telegram: "https://telegram.org",
+  telegram: "https://t.me/Nipi_el",
 
   twitter: "https://twitter.com",
 
   whatsApp: "https://wa.me/251938957338",
 
-  email: "https://mail.google.com",
+  email: "senaitaweke2019@gmail.com",
 
   instagram: "https://instagram.com",
 
