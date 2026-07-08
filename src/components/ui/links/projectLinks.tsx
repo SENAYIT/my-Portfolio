@@ -8,7 +8,8 @@ export default function ProjectLinks({
   return (
     <a
       href={href}
-      // target="no-target"
+      target="_blank"
+      rel="noopener noreferrer"
       className="text-base md:text-lg text-gray-500 hover:text-cyan-400 transition-colors duration-200"
     >
       {children}
