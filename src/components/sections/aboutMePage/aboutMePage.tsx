@@ -11,10 +11,20 @@ export default function AboutMePageSection() {
         headerSubHeading="Passionate about creating seamless user experiences and scalable systems"
         className=""
       />
-      <main className="flex flex-col items-center justify-center gap-4 md:flex md:flex-row md:items-center md:justify-between">
+      <main className="grid md:grid-cols-2 gap-2">
         <ContentDisplaySection />
         <AboutMeCardSection />
       </main>
     </div>
   );
+}
+
+{
+  /* <main className=" w-full flex flex-col items-center justify-center gap-4 md:flex md:flex-row md:items-center md:justify-beween">
+        <ContentDisplaySection />
+        <AboutMeCardSection />
+      </main> */
+}
+{
+  /* <main className="flex w-full flex-col gap-4 md:flex-row md:items-start md:justify-between"> */
 }
