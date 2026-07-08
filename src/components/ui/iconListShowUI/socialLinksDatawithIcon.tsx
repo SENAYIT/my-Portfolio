@@ -14,10 +14,12 @@ import { mySocialLinkData } from "@/data/socialLinksData";
 export type SocialLinkData = {
   name: string;
   href: string;
+  type?: "email" | "external ";
   icon: IconType;
 };
 
-const { github, linkedin, telegram, twitter, whatsApp, email } =  mySocialLinkData;
+const { github, linkedin, telegram, twitter, whatsApp, email } =
+  mySocialLinkData;
 
 export const socialLinkData: SocialLinkData[] = [
   {
