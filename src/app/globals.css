@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --background: #ffffff;
+  --foreground: #171717; */
+  --background: #fff;
+  --foreground: oklch(14.5% 0 0);
 }
 
 @theme inline {
@@ -24,3 +26,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* TEXT COLORS : */
+/* text-gray-300  - for the navbar links and text */
+/* text-gray-400  - for the default  */
+/* text-white */
+/* text-cyan-400 */
+
+/* BACKGROUND COLORS */
+/*  bg-gray-800 text-white */
