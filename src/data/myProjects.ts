@@ -1,12 +1,14 @@
 export type ProjectLink = {
-  github?: string;
-  live?: string;
+  name: "live demo" | "github";
+  href: string;
+  // github?: string;
+  // live?: string;
 };
 
 export type Project = {
   name: string;
   description: string;
-  links: ProjectLink;
+  links: ProjectLink[];
   techUsed: string[];
 };
 
@@ -21,25 +23,46 @@ export const frontendProjects: ProjectGroup = {
     {
       name: "project name",
       description: "project description",
-      links: { github: "github link", live: "live Demo Link" },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["teck1", "teck2"],
     },
     {
       name: "Portfolio Website",
       description: "Personal portfolio built with Next.js and Tailwind CSS.",
-      links: {
-        github: "https://github.com/yourname/portfolio",
-        live: "https://yourportfolio.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     },
     {
       name: "E-commerce UI",
       description: "Modern UI for an e-commerce platform.",
-      links: {
-        github: "https://github.com/yourname/ecommerce-ui",
-        live: "https://ecommerce-demo.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["React", "Redux", "Tailwind CSS"],
     },
   ],
@@ -51,25 +74,46 @@ export const backendProjects: ProjectGroup = {
     {
       name: "project name",
       description: "project description",
-      links: { github: "github link", live: "live Demo Link" },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["teck1", "teck2"],
     },
     {
       name: "Portfolio Website",
       description: "Personal portfolio built with Next.js and Tailwind CSS.",
-      links: {
-        github: "https://github.com/yourname/portfolio",
-        live: "https://yourportfolio.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     },
     {
       name: "E-commerce UI",
       description: "Modern UI for an e-commerce platform.",
-      links: {
-        github: "https://github.com/yourname/ecommerce-ui",
-        live: "https://ecommerce-demo.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["React", "Redux", "Tailwind CSS"],
     },
   ],
@@ -81,25 +125,46 @@ export const fullstackProjects: ProjectGroup = {
     {
       name: "project name",
       description: "project description",
-      links: { github: "github link", live: "live Demo Link" },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["teck1", "teck2"],
     },
     {
       name: "Portfolio Website",
       description: "Personal portfolio built with Next.js and Tailwind CSS.",
-      links: {
-        github: "https://github.com/yourname/portfolio",
-        live: "https://yourportfolio.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     },
     {
       name: "E-commerce UI",
       description: "Modern UI for an e-commerce platform.",
-      links: {
-        github: "https://github.com/yourname/ecommerce-ui",
-        live: "https://ecommerce-demo.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["React", "Redux", "Tailwind CSS"],
     },
   ],
@@ -111,25 +176,46 @@ export const othersProjects: ProjectGroup = {
     {
       name: "project name",
       description: "project description",
-      links: { github: "github link", live: "live Demo Link" },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["teck1", "teck2"],
     },
     {
       name: "Portfolio Website",
       description: "Personal portfolio built with Next.js and Tailwind CSS.",
-      links: {
-        github: "https://github.com/yourname/portfolio",
-        live: "https://yourportfolio.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     },
     {
       name: "E-commerce UI",
       description: "Modern UI for an e-commerce platform.",
-      links: {
-        github: "https://github.com/yourname/ecommerce-ui",
-        live: "https://ecommerce-demo.com",
-      },
+      links: [
+        {
+          name: "live demo",
+          href: "https://yourwebsite.com",
+        },
+        {
+          name: "github",
+          href: "https://github.com/SENAYIT/my-portfolio",
+        },
+      ],
       techUsed: ["React", "Redux", "Tailwind CSS"],
     },
   ],

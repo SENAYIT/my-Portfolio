@@ -5,16 +5,16 @@ import TechTool from "./techTool";
 
 import { Project } from "@/data/myProjects";
 
-const projectLinksData = [
-  {
-    name: "live demo",
-    href: "google.com",
-  },
-  {
-    name: "github",
-    href: "google.com",
-  },
-];
+// const projectLinksData = [
+//   {
+//     name: "live demo",
+//     href: "google.com",
+//   },
+//   {
+//     name: "github",
+//     href: "google.com",
+//   },
+// ];
 
 export default function Projectcard({ project }: { project: Project }) {
   return (
@@ -53,7 +53,7 @@ export default function Projectcard({ project }: { project: Project }) {
         </div>
 
         <ProjectsIconsList
-          projectLinksData={projectLinksData}
+          projectLinksData={project.links}
           showiconName={true}
         />
       </div>
