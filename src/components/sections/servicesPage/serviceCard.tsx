@@ -10,7 +10,13 @@ export default function ServiceCard({ service }: { service: Service }) {
     techSkills,
   } = service;
   return (
-    <div className="border border-cyan-950 rounded-lg p-4 shadow-sm flex flex-col items-start gap-2 justify-center">
+    <div
+      className="border border-cyan-950 rounded-lg p-4 shadow-sm flex flex-col items-start gap-2 justify-center   transition-all duration-300 ease-in-out
+
+        hover:shadow-[0_0_20px_rgba(34,211,238,0.25)]
+        hover:border-cyan-400/60
+        hover:-translate-y-1"
+    >
       {/* Access simple properties */}
       <div>
         <Image

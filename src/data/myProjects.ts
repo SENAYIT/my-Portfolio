@@ -35,10 +35,11 @@ export const myProjects: Project[] = [
   },
   {
     id: "2f",
-    name: "Portfolio Website",
-    projectCategory: "frontend",
+    name: "All Js Projects",
+    projectCategory: "fullstack",
     image: "/projects/world_map.jpeg",
-    description: "Personal portfolio built with Next.js and Tailwind CSS.",
+    description:
+      "A Geo Location Project that can help you , the location of Country and all Details about that country.",
     links: [
       { name: "live demo", href: "https://yourwebsite.com" },
       { name: "github", href: "https://github.com/SENAYIT/my-portfolio" },
@@ -47,10 +48,10 @@ export const myProjects: Project[] = [
   },
   {
     id: "3f",
-    name: "E-commerce UI",
+    name: "Admin-Dashboard Project",
     projectCategory: "frontend",
     image: "/projects/world_map.jpeg",
-    description: "Modern UI for an e-commerce platform.",
+    description: "This Project has all CRUD features.",
     links: [
       { name: "live demo", href: "https://yourwebsite.com" },
       { name: "github", href: "https://github.com/SENAYIT/my-portfolio" },
@@ -60,7 +61,7 @@ export const myProjects: Project[] = [
 
   {
     id: "1b",
-    name: "project name",
+    name: "All NextJs Projects ",
     projectCategory: "backend",
     image: "/projects/world_map.jpeg",
     description: "project description",
@@ -72,7 +73,7 @@ export const myProjects: Project[] = [
   },
   {
     id: "2b",
-    name: "Portfolio Website",
+    name: "All React Projects",
     projectCategory: "backend",
     image: "/projects/world_map.jpeg",
     description: "Personal portfolio built with Next.js and Tailwind CSS.",
