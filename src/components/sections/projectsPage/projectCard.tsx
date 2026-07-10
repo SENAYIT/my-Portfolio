@@ -2,21 +2,11 @@ import Image from "next/image";
 import ProjectsIconsList from "./projectLinkIconsList";
 import ProjectCardUI from "@/components/ui/CardUI/projectCardUI";
 import TechTool from "./techTool";
-
 import { Project } from "@/data/myProjects";
-
-// const projectLinksData = [
-//   {
-//     name: "live demo",
-//     href: "google.com",
-//   },
-//   {
-//     name: "github",
-//     href: "google.com",
-//   },
-// ];
+import GotoLink from "@/components/ui/links/goToLink";
 
 export default function Projectcard({ project }: { project: Project }) {
+  const { id, name, description, techUsed, links } = project;
   return (
     <ProjectCardUI>
       <div className="flex flex-col gap-2">
@@ -42,20 +32,24 @@ export default function Projectcard({ project }: { project: Project }) {
         </div>
         {/* project for content */}
 
-        <h3 className="text-white">{project.name}</h3>
-        <p className="text-gray-500">{project.description}</p>
+        <h3 className="text-white">{name}</h3>
+        <p className="text-gray-500">{description}</p>
 
         {/* for project links tools */}
         <div className="flex gap-2 flex-wrap">
-          {project.techUsed.map((tech) => (
+          {techUsed.map((tech) => (
             <TechTool key={tech} techTool={tech} />
           ))}
         </div>
-
-        <ProjectsIconsList
-          projectLinksData={project.links}
-          showiconName={true}
-        />
+        <div className="flex flex-row items-center justify-between">
+          <ProjectsIconsList projectLinksData={links} showiconName={true} />
+          <GotoLink
+            href={`projects/${id}`}
+            className="text-cyan-600 hover:underline-offset-1 hover:text-cyan-300"
+          >
+            Details...
+          </GotoLink>
+        </div>
       </div>
     </ProjectCardUI>
   );

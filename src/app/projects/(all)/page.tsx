@@ -1,6 +1,5 @@
-import ProjectsSection from "@/components/sections/projectsPage/projectSection";
 import ProjectsPageSection from "@/components/sections/projectsPage/projectsPage";
-export default function ProjectsPage() {
+export default function AllProjectsPage() {
   return (
     <div>
       <ProjectsPageSection />

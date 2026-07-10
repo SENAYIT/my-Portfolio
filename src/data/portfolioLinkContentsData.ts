@@ -11,3 +11,11 @@ export const links: Link[] = [
   { href: "/services", linkName: "Services" },
   { href: "/contacts", linkName: "Contacts" },
 ];
+
+// export const projectCatagorylinks: Link[] = [
+//   { href: "/projects/", linkName: "All" },
+//   { href: "/projects/fullstack", linkName: "FullStack" },
+//   { href: "/projects/frontend", linkName: "Frontend" },
+//   { href: "/projects/backend", linkName: "Backend" },
+//   { href: "/projects/project", linkName: "Projects Detail" },
+// ];

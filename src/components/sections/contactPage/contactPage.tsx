@@ -15,8 +15,8 @@ export default function ContactPageSection() {
         headerSubHeading="Have a project in mind? Let's create something amazing together"
         className=""
       />
-      <div className="flex flex-col md:flex md:flex-row md:items-center md:justify-between md:gap-4 gap-2 md:w-94">
-        <div>
+      <div className="w-full flex flex-col gap-2 md:flex-row md:items-center md:justify-between md:gap-4">
+        <div className="md:flex md:flex-col md:flex-1">
           <ContactWrapper />
           <div className="my-8">
             <p className="text-white">Conect with Me</p>
@@ -24,7 +24,9 @@ export default function ContactPageSection() {
           </div>
         </div>
 
-        <Map src={mapSrc} />
+        <div className="md:flex md:w-96 md:h-96 md:flex-1">
+          <Map src={mapSrc} />
+        </div>
       </div>
     </div>
   );

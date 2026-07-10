@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 
-export default function ButtonStyleLink({
+export default function GotoLink({
   href,
   children,
   className = "",

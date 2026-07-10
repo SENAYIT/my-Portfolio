@@ -1,9 +1,9 @@
-import ButtonStyleLink from "@/components/ui/links/buttonStyleLink";
+import GoToLink from "@/components/ui/links/goToLink";
 import { ArrowRight } from "@/components/icons/lucidIcons";
 
 export default function ViewProjectsLink() {
   return (
-    <ButtonStyleLink
+    <GoToLink
       href="/projects"
       className="text-white bg-gray-600 hover:bg-gray-500 transition-colors duration-200 rounded-md px-4 py-2"
     >
@@ -11,6 +11,6 @@ export default function ViewProjectsLink() {
         <span>View Projects</span>
         <ArrowRight className="w-5 h-5" />
       </div>
-    </ButtonStyleLink>
+    </GoToLink>
   );
 }

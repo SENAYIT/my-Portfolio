@@ -30,7 +30,10 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "../unwantedFiles/projectLinkIconsList copy.tsx",
-    "../unwantedFiles/myProjects copy.ts"
+    "../unwantedFiles/myProjects copy.ts",
+    "../portfolio favicon/projects with catagoreis Done/projectCatagorySection.tsx",
+    "src/components/layouts/projectsNavBar.tsx",
+    "../portfolio favicon/projects with catagoreis Done/portfolioLinkContentsData.ts"
   ],
   "exclude": ["node_modules"]
 }

@@ -10,7 +10,7 @@ export default function ProjectCardUI({
 }) {
   return (
     <div
-      className={`p-2 border border-cyan-800 rounded-lg hover:shadow-cyan-900 hover:shadow-lg ${className}`}
+      className={`p-4 border border-cyan-800 rounded-lg hover:shadow-cyan-900 hover:shadow-lg ${className}`}
     >
       {children}
     </div>
