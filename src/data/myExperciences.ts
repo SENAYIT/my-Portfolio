@@ -13,7 +13,7 @@ export const experiences: Experience[] = [
     company: "Learning Projects",
     role: "Full Stack Developer (Practice)",
     location: "online",
-    startDate: "2023",
+    startDate: "2026",
     endDate: "Present",
     description:
       "Focused on learning full-stack development and building real-world Project applications.",
