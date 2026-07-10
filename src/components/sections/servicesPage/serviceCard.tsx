@@ -1,4 +1,4 @@
-import { Service } from "@/data/myServices";
+import { Service } from "@/data/myOfferingServices";
 import Image from "next/image";
 import TechTool from "../projectsPage/techTool";
 

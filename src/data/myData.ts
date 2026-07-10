@@ -4,7 +4,7 @@ import { aboutMe, heroDescription } from "./aboutMe";
 import { skills } from "./mySkills"; // it is data with out icon
 import { experiences } from "./myExperciences";
 import { myProjects } from "./myProjects";
-import { services } from "./myServices";
+import { services } from "./myOfferingServices";
 import { mySocialLinkData } from "./socialLinksData";
 
 export type Mydata = {

@@ -1,4 +1,4 @@
-import { services } from "@/data/myServices";
+import { services } from "@/data/myOfferingServices";
 import ServiceCard from "./serviceCard";
 
 export default function ServicesSection() {
