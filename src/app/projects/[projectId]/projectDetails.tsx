@@ -6,13 +6,19 @@ import TechTool from "@/components/sections/projectsPage/techTool";
 import { Project } from "@/data/myProjects";
 
 export default function ProjectDetails({ project }: { project: Project }) {
-  const { name, description, techUsed, links } = project;
+  const {
+    name,
+    image = "/projects/world_map.jpeg",
+    description,
+    techUsed,
+    links,
+  } = project;
   return (
     <section className="flex flex-col items-center justify-center gap-2 md:p-8 md:border-2 md:border-gray-700 md:rounded-2xl">
       {/* for image*/}
       <div>
         <Image
-          src="/myPortfolioFavicon.png"
+          src={image}
           width={300}
           height={50}
           className="w-auto h-auto hidden md:block"
@@ -21,7 +27,7 @@ export default function ProjectDetails({ project }: { project: Project }) {
         />
 
         <Image
-          src="/myPortfolioFavicon.png"
+          src={image}
           width={200}
           height={50}
           className="w-auto h-auto block md:hidden"
