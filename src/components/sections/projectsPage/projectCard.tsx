@@ -6,14 +6,21 @@ import { Project } from "@/data/myProjects";
 import GotoLink from "@/components/ui/links/goToLink";
 
 export default function Projectcard({ project }: { project: Project }) {
-  const { id, name, description, techUsed, links } = project;
+  const {
+    id,
+    name,
+    image = "/projects/world_map.jpeg",
+    description,
+    techUsed,
+    links,
+  } = project;
   return (
     <ProjectCardUI>
       <div className="flex flex-col gap-2">
         {/* for image*/}
         <div>
           <Image
-            src="/myPortfolioFavicon.png"
+            src={image}
             width={300}
             height={50}
             className="w-auto h-auto hidden md:block"
@@ -22,7 +29,7 @@ export default function Projectcard({ project }: { project: Project }) {
           />
 
           <Image
-            src="/myPortfolioFavicon.png"
+            src={image}
             width={200}
             height={50}
             className="w-auto h-auto block md:hidden"
@@ -33,7 +40,7 @@ export default function Projectcard({ project }: { project: Project }) {
         {/* project for content */}
 
         <h3 className="text-white">{name}</h3>
-        <p className="text-gray-500">{description}</p>
+        <p className="text-gray-500 text-wrap">{description}</p>
 
         {/* for project links tools */}
         <div className="flex gap-2 flex-wrap">
