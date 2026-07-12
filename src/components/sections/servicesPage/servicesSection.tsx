@@ -8,7 +8,6 @@ export default function ServicesSection() {
         {services.map((service, index) => (
           <ServiceCard key={index} service={service} />
         ))}
-        ;
       </div>
     </section>
   );
