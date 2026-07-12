@@ -33,7 +33,7 @@ export default function RootLayout({
         <NavBar />
         {/* <div className="h-20" /> */}
         {/* fix the flex grow */}
-        <main className="min-h-screen p-6 pt-20 pb-18 md:px-18 md:pb-24  bg-linear-to-r from-zinc-950 via-slate-950 to-zinc-950 ">
+        <main className="min-h-screen p-6 pt-24 pb-10 md:px-18 md:pb-24  bg-linear-to-r from-zinc-950 via-slate-950 to-zinc-950 ">
           {children}
         </main>
         <Footer />
