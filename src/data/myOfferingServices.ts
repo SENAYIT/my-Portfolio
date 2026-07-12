@@ -12,7 +12,7 @@ export const services: Service[] = [
   {
     id: 1,
     name: "WordPress Website Development",
-    image: "/servicesImage/world_map.jpeg",
+    image: "/servicesImage/wordpress-website-design.jpg",
     description:
       "Professional WordPress websites that are responsive, user-friendly, and tailored to your business needs.",
     offers: [
@@ -43,7 +43,7 @@ export const services: Service[] = [
   {
     id: 2,
     name: "React & Next.js Frontend Development",
-    image: "/servicesImage/world_map.jpeg",
+    image: "/servicesImage/frontend developement.webp",
     description:
       "Modern, responsive frontend applications built with React, Next.js, and TypeScript.",
     offers: [
@@ -77,7 +77,8 @@ export const services: Service[] = [
   {
     id: 3,
     name: "Website Redesign & Modernization",
-    image: "/servicesImage/world_map.jpeg",
+
+    image: "/servicesImage/webdesign2.jpg",
     description:
       "Transform outdated websites into modern, responsive, and visually appealing experiences.",
     offers: [
