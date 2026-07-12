@@ -18,7 +18,7 @@ export default function ContactButton({
           <p className="text-base md:text-lg font-medium text-gray-500">
             {contactName}
           </p>
-          <p className="font-bold text-white">{contactData}</p>
+          <p className="font-medium text-white">{contactData}</p>
         </div>
       </div>
     </ContactCardUI>
