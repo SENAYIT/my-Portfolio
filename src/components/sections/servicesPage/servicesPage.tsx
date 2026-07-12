@@ -6,8 +6,8 @@ export default function ServicesPageSection() {
     <div>
       <PageHeader
         headerTitle="Services"
-        headerHeading="Welcome to My Services Page"
-        headerSubHeading="Learn more about the services I offer"
+        headerHeading="Web Development"
+        headerSubHeading="Bringing your ideas to life through web development."
         className=""
       />
       <ServicesSection />
