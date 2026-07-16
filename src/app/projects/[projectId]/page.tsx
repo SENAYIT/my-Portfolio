@@ -1,6 +1,5 @@
 import NotFound from "@/app/not-found";
 import Breadcrumbs from "@/components/sections/projectsPage/breadcrumbs";
-import ProjectCard from "@/components/sections/projectsPage/projectCard";
 import { myProjects } from "@/data/myProjects";
 import ProjectDetails from "./projectDetails";
 
