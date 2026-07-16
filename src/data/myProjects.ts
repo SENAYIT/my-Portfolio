@@ -27,7 +27,7 @@ export const myProjects: Project[] = [
     id: "1wordpress",
     name: "Acupuncture In Addis",
     projectCategory: "wordpress",
-    image: "/projects/world_map.jpeg",
+    image: "/projects/acupuncture_logo.jpg",
 
     short_description:
       "A professional WordPress website developed for Acupuncture In Addis. The website is responsive, SEO-optimized, and designed to provide users with a smooth experience when exploring acupuncture services.",
@@ -56,7 +56,7 @@ export const myProjects: Project[] = [
       },
       {
         name: "github",
-        href: "",
+        href: "/projects",
       },
     ],
 
@@ -140,7 +140,8 @@ export const myProjects: Project[] = [
 
       During development, I gained hands-on experience with the Next.js App Router, React Server Components, server actions, TypeScript type safety, PostgreSQL database operations, authentication workflows, and scalable application architecture.
 
-      This project strengthened my understanding of connecting frontend components, backend logic, and databases together to create complete full-stack applications.`,
+      This project strengthened my understanding of connecting frontend components, backend logic, and databases together to create complete full-stack applications. 
+      Note: TO access the Admin Dashboard: Please use the below email and Password => email: 'user@nextmail.com', password: '123456'`,
 
     features: [
       "User authentication and secure login system",
