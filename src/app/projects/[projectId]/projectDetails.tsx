@@ -17,23 +17,7 @@ export default function ProjectDetails({ project }: { project: Project }) {
     learning,
   } = project;
   return (
-    <section
-      className="mx-auto w-full 
-    max-w-5xl 
-    rounded-3xl
-    border
-    border-white/10
-    bg-[#0b1220]/80
-    px-4 
-    py-8
-    shadow-2xl
-    backdrop-blur
-    sm:px-6 
-    sm:py-10 
-    lg:px-8 
-    lg:py-12
-  "
-    >
+    <section className="mx-auto w-full max-w-5xl rounded-3xl border border-white/10 bg-[#0b1220]/80 px-4 py-8 shadow-2xl backdrop-blur sm:px-6 sm:py-10 lg:px-8 lg:py-12">
       {/* Project Image */}
       <div
         className="
