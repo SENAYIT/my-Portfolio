@@ -28,7 +28,6 @@ export const myProjects: Project[] = [
     name: "Acupuncture In Addis",
     projectCategory: "wordpress",
     image: "/projects/acupuncture_logo.jpg",
-
     short_description:
       "A professional WordPress website developed for Acupuncture In Addis. The website is responsive, SEO-optimized, and designed to provide users with a smooth experience when exploring acupuncture services.",
 
