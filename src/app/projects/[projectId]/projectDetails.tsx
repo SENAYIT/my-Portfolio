@@ -1,7 +1,9 @@
 import Image from "next/image";
 import ProjectsIconsList from "@/components/sections/projectsPage/projectLinkIconsList";
 import { Project } from "@/data/myProjects";
-import { CheckCircle } from "lucide-react";
+import Feature from "../../../components/sections/projectsPage/projectsDetail/feature";
+import ProjectDetailTech from "../../../components/sections/projectsPage/projectsDetail/projectDetailTech";
+import ProjectContent from "../../../components/sections/projectsPage/projectsDetail/projectContent";
 
 export default function ProjectDetails({ project }: { project: Project }) {
   const {
@@ -97,17 +99,7 @@ export default function ProjectDetails({ project }: { project: Project }) {
           Project Overview
         </h2>
 
-        <p
-          className="
-        text-sm
-        leading-7
-        text-slate-300
-        sm:text-base
-        sm:leading-8
-      "
-        >
-          {description}
-        </p>
+        <ProjectContent text={description} />
       </div>
 
       {/* Features */}
@@ -124,38 +116,9 @@ export default function ProjectDetails({ project }: { project: Project }) {
           Key Features
         </h2>
 
-        <div
-          className="
-        grid
-        grid-cols-1
-        gap-3
-        md:grid-cols-2
-        md:gap-4
-      "
-        >
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4   ">
           {features.map((feature) => (
-            <div
-              key={feature}
-              className="
-            flex
-            items-start
-            gap-3
-            rounded-xl
-            border
-            border-white/10
-            bg-white/5
-            p-4
-            text-sm
-            text-slate-200
-            transition
-            hover:bg-white/10
-            sm:text-base
-          "
-            >
-              <CheckCircle className="mt-1 shrink-0 text-green-400" size={20} />
-
-              <span>{feature}</span>
-            </div>
+            <Feature key={feature} feature={feature} />
           ))}
         </div>
       </div>
@@ -176,24 +139,7 @@ export default function ProjectDetails({ project }: { project: Project }) {
 
         <div className="flex flex-wrap gap-2 sm:gap-3">
           {techUsed.map((tech) => (
-            <span
-              key={tech}
-              className="
-            rounded-full
-            border
-            border-blue-400/20
-            bg-blue-500/10
-            px-3
-            py-2
-            text-xs
-            font-medium
-            text-blue-200
-            sm:px-4
-            sm:text-sm
-          "
-            >
-              {tech}
-            </span>
+            <ProjectDetailTech key={tech} tech={tech} />
           ))}
         </div>
       </div>
@@ -212,17 +158,7 @@ export default function ProjectDetails({ project }: { project: Project }) {
           What I Learned
         </h2>
 
-        <p
-          className="
-        text-sm
-        leading-7
-        text-slate-300
-        sm:text-base
-        sm:leading-8
-      "
-        >
-          {learning}
-        </p>
+        <ProjectContent text={learning} />
       </div>
     </section>
   );
