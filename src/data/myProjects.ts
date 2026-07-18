@@ -79,7 +79,7 @@ export const myProjects: Project[] = [
     image: "/projects/world_map.jpeg",
 
     short_description:
-      "A location-based web application that allows users to explore countries and view detailed geographical information using external APIs.",
+      "A location-based web application that allows users to know where they are , explore countries and view detailed geographical information using external APIs.",
 
     description: `Geo Location is an interactive web application that provides detailed information about countries around the world.
 
@@ -101,11 +101,11 @@ export const myProjects: Project[] = [
     links: [
       {
         name: "live demo",
-        href: "https://yourwebsite.com",
+        href: "https://geolocation-with-js-html.vercel.app/",
       },
       {
         name: "github",
-        href: "https://github.com/SENAYIT/my-portfolio",
+        href: "https://github.com/SENAYIT/Geolocation_with_Js-html",
       },
     ],
 
@@ -178,5 +178,253 @@ export const myProjects: Project[] = [
 
     learning:
       "Through this project, I improved my understanding of full-stack development using Next.js. I learned how authentication systems, databases, server components, server actions, and frontend interfaces work together to create scalable production-ready applications.",
+  },
+
+  // for the projects that i practice
+
+  {
+    id: "2React_vitejs_investmentCalculator",
+    name: "Investment Calculator",
+    projectCategory: "frontend",
+    image: "/projects/practice/investment-calculator-logo.png",
+    short_description:
+      "A React + Vite investment calculator that calculates yearly investment growth based on user inputs.",
+    description:
+      "It is a React.js Vite project that accepts initial investment, duration, interest rate, and annual contribution. It calculates the investment growth and displays yearly results in a table.",
+    features: [
+      "Calculate investment growth based on user inputs",
+      "Display yearly investment results in a table",
+      "Handle user input dynamically",
+      "Responsive design for mobile and tablet devices",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://react-js-vite-project-2-investmente.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/react_js_vite_Project_2-essentials-Practice",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned React component structure, state management, handling user inputs, and rendering dynamic data.",
+  },
+
+  {
+    id: "5React_vitejs_Project_list_Management",
+    name: "Project List Management",
+    projectCategory: "frontend",
+    image: "/projects/practice/projectListManagement.png",
+    short_description:
+      "A React project management application for creating and managing projects and tasks.",
+    description:
+      "It is a React.js Vite project that allows users to add projects with tasks, view project details, clear tasks, and delete projects.",
+    features: [
+      "Create new projects",
+      "Add and manage project tasks",
+      "View project details",
+      "Delete projects",
+      "Clear completed tasks",
+      "Responsive UI design",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://react-js-vite-project-5-project-lis.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/react_js_vite_Project_5_ProjectListManagement",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned React state management, component communication, conditional rendering, and managing application data.",
+  },
+
+  {
+    id: "6React_viteJS-Cart",
+    name: "Shopping Cart",
+    projectCategory: "frontend",
+    image: "/projects/practice/cart.png",
+    short_description:
+      "A React shopping cart application that manages products and calculates total prices.",
+    description:
+      "It is a React.js Vite project that displays products with images and descriptions. Users can add products to the cart, increase quantity, decrease quantity, and calculate total price.",
+    features: [
+      "Display product list",
+      "Add products to cart",
+      "Increase and decrease product quantity",
+      "Calculate total cart price",
+      "Manage cart state dynamically",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://reactjs-vite-project-6-cart.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/reactjs_vite_Project_6_Cart_while_advancedStateLesson",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned React state management, reusable components, event handling, and dynamic UI updates.",
+  },
+
+  {
+    id: "7React_viteJS7-place-picker",
+    name: "Place Picker",
+    projectCategory: "frontend",
+    image: "/projects/practice/visitingPlaces.png",
+    short_description:
+      "A React location picker application for selecting and managing favorite places.",
+    description:
+      "It is a React.js Vite project that displays available visiting places based on location and allows users to select and manage visited or favorite places.",
+    features: [
+      "Display available places",
+      "Select favorite locations",
+      "Manage selected places",
+      "Use browser location features",
+      "Responsive interface",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://reactjs-vite-project-7-place-picker.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/reactjs_vite_Project_7_PlacePickerforVisit",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned working with browser APIs, state updates, component rendering, and user interactions.",
+  },
+
+  {
+    id: "8React_vitejs_reactQuiz",
+    name: "React Quiz",
+    projectCategory: "frontend",
+    image: "/projects/practice/quiz-logo.png",
+    short_description:
+      "A React quiz application with timer, scoring system, and final performance summary.",
+    description:
+      "It is a React.js Vite project that provides timed quizzes and displays final results including percentage score, skipped questions, correct answers, and wrong answers.",
+    features: [
+      "Timed quiz questions",
+      "Progress tracking",
+      "Calculate final score percentage",
+      "Show correct and incorrect answers",
+      "Display quiz summary",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://react-js-vite-project-8-react-quiz.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/react_js_vite_Project_8_ReactQuiz",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned React state management, timers, conditional rendering, and building interactive applications.",
+  },
+
+  {
+    id: "23React_vitejs_react_challenges",
+    name: "React Challenges",
+    projectCategory: "frontend",
+    image: "/projects/practice/vite.svg",
+    short_description:
+      "A React challenge tracker application for managing active, completed, and failed challenges.",
+    description:
+      "It is a React.js Vite project that registers challenge tasks and separates them into active, failed, and completed categories.",
+    features: [
+      "Create challenge tasks",
+      "Track active challenges",
+      "Show completed challenges",
+      "Show failed challenges",
+      "Manage challenge status",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://react-js-vite-project-23-reactchall.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/react_js_vite_Project_23_ReactchallengesRegistered",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned advanced component design, managing complex state, and organizing application logic.",
+  },
+
+  {
+    id: "1_React_Projects_reactPost",
+    name: "React Post",
+    projectCategory: "fullstack",
+    image: "/projects/practice/vite.svg",
+    short_description:
+      "A full-stack React post application for creating and managing posts.",
+    description: "A React Post project built with React.js and Vite.",
+    features: [
+      "Create posts",
+      "Display post lists",
+      "Manage post data",
+      "Connect frontend with backend APIs",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://full-stack-react-js-vite-project-30-nu.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/FullStack_react_js_vite_Project_30_ReactPost",
+      },
+    ],
+    techUsed: ["React.js", "JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned frontend and backend communication, API integration, and full-stack project structure.",
+  },
+
+  {
+    id: "2_JsProjects_Bankist",
+    name: "Bankist",
+    projectCategory: "frontend",
+    image: "/projects/practice/bankist.png",
+    short_description: "A banking dashboard simulation built with JavaScript.",
+    description:
+      "A Bankist project with login functionality, account balance display, transaction history, money transfer, loan requests, and account closing features.",
+    features: [
+      "User login system",
+      "Display account balance",
+      "Transaction history",
+      "Transfer money",
+      "Request loans",
+      "Close account",
+    ],
+    links: [
+      {
+        name: "live demo",
+        href: "https://bankist-with-js-html.vercel.app/",
+      },
+      {
+        name: "github",
+        href: "https://github.com/SENAYIT/bankist_with_js_html",
+      },
+    ],
+    techUsed: ["JavaScript", "CSS", "HTML"],
+    learning:
+      "Learned JavaScript DOM manipulation, array methods, events, and building interactive applications.",
   },
 ];

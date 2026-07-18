@@ -23,8 +23,8 @@ export default function Projectcard({ project }: { project: Project }) {
             src={image}
             width={300}
             height={50}
+            alt={name}
             className="w-auto h-auto hidden md:block"
-            alt="projects Image"
             loading="eager"
           />
 
@@ -33,7 +33,7 @@ export default function Projectcard({ project }: { project: Project }) {
             width={200}
             height={50}
             className="w-auto h-auto block md:hidden"
-            alt="projects Image"
+            alt={name}
             loading="eager"
           />
         </div>
