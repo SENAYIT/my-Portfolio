@@ -7,6 +7,7 @@ export default function ProjectContent({ text }: { text: string }) {
         text-slate-300
         sm:text-base
         sm:leading-8
+         whitespace-pre-line
       "
     >
       {text}

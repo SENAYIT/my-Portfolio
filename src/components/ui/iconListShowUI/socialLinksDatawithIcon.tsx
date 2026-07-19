@@ -1,7 +1,6 @@
 import {
   FaGithub,
   FaLinkedin,
-  FaTwitter,
   FaTelegram,
   FaEnvelope,
   FaWhatsapp,
@@ -18,8 +17,7 @@ export type SocialLinkData = {
   icon: IconType;
 };
 
-const { github, linkedin, telegram, twitter, whatsApp, email } =
-  mySocialLinkData;
+const { github, linkedin, telegram, whatsApp, email } = mySocialLinkData;
 
 export const socialLinkData: SocialLinkData[] = [
   {
@@ -36,11 +34,6 @@ export const socialLinkData: SocialLinkData[] = [
     name: "Telegram",
     href: telegram,
     icon: FaTelegram,
-  },
-  {
-    name: "Twitter",
-    href: twitter,
-    icon: FaTwitter,
   },
   {
     name: "WhatsApp",

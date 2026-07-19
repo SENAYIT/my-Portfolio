@@ -10,7 +10,7 @@ export type AboutMeProps = {
 };
 export const aboutMe: AboutMeProps = {
   introduction:
-    "I'm a frontend developer with 1 year of QA experience, passionate about building modern and user-friendly web applications.",
+    "I'm a Junior frontend developer with 1 year of QA experience, passionate about building modern and user-friendly web applications.",
 
   overallExpercience:
     "Currently, I'm focused on real-world frontend and backend projects using React, Next.js, Node.js, Express, and MongoDB.",

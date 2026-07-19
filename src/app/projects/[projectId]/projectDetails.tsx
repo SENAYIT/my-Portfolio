@@ -58,6 +58,7 @@ export default function ProjectDetails({ project }: { project: Project }) {
         text-slate-300
         sm:mt-4
         sm:text-lg
+        whitespace-pre-line
       "
         >
           {short_description}

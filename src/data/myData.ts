@@ -28,7 +28,7 @@ export type Mydata = {
 
 export const myData: Mydata = {
   name: "Senayit Awoke",
-  title: "Frontend Website Developer",
+  title: "Junior Frontend Website Developer",
   heroDescription: heroDescription,
   description: aboutMe,
   techSkill: skills,

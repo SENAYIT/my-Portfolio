@@ -32,12 +32,9 @@ export const myProjects: Project[] = [
       "A professional WordPress website developed for Acupuncture In Addis. The website is responsive, SEO-optimized, and designed to provide users with a smooth experience when exploring acupuncture services.",
 
     description: `Acupuncture In Addis is a real-world WordPress website created to establish a professional online presence for an acupuncture service provider.
-
-      The project focuses on building a clean, responsive, and user-friendly website where visitors can learn about services, understand available treatments, and easily contact the business.
-
-      I developed the website using WordPress and Elementor, applying modern web design principles such as responsive layouts, optimized page structure, and SEO-friendly content organization.
-
-      This project demonstrates my ability to create professional business websites based on real client requirements while focusing on usability, performance, and visual design.`,
+The project focuses on building a clean, responsive, and user-friendly website where visitors can learn about services, understand available treatments, and easily contact the business.
+ I developed the website using WordPress and Elementor, applying modern web design principles such as responsive layouts, optimized page structure, and SEO-friendly content organization.
+ This project demonstrates my ability to create professional business websites based on real client requirements while focusing on usability, performance, and visual design.`,
 
     features: [
       "Responsive design for desktop, tablet, and mobile devices",
@@ -82,12 +79,9 @@ export const myProjects: Project[] = [
       "A location-based web application that allows users to know where they are , explore countries and view detailed geographical information using external APIs.",
 
     description: `Geo Location is an interactive web application that provides detailed information about countries around the world.
-
-      The application retrieves country data from external APIs and presents information through a clean and responsive user interface. Users can explore country details, geographical information, and location-based data in an organized way.
-
-      This project focuses on frontend development concepts including API integration, asynchronous data handling, responsive design, and creating interactive user experiences.
-
-      It demonstrates my ability to connect frontend applications with external services and transform API data into meaningful information for users.`,
+ The application retrieves country data from external APIs and presents information through a clean and responsive user interface. Users can explore country details, geographical information, and location-based data in an organized way.
+ This project focuses on frontend development concepts including API integration, asynchronous data handling, responsive design, and creating interactive user experiences.
+ It demonstrates my ability to connect frontend applications with external services and transform API data into meaningful information for users.`,
 
     features: [
       "Search and explore country information",
@@ -128,19 +122,21 @@ export const myProjects: Project[] = [
     projectCategory: "fullstack",
     image: "/projects/opengraph-image.png",
 
-    short_description:
-      "A full-stack dashboard application with authentication, protected routes, CRUD operations, and PostgreSQL database integration. Users can securely manage data through a responsive dashboard interface.",
+    short_description: `A full-stack dashboard application with authentication, protected routes, CRUD operations, and PostgreSQL database integration. Admins can securely manage data through a responsive dashboard interface.
+       Note: Admin Dashboard demo credentials included below. 
+ => email: 'user@nextmail.com'  
+ => password: '123456'`,
 
     description: `This full-stack dashboard application was developed by following the official Next.js Dashboard App learning course from Next.js.
-
-      The project demonstrates how to build a production-style application using modern full-stack development practices. It includes secure authentication, protected routes, database integration, CRUD operations, form validation, and responsive dashboard interfaces.
-
-      Users can securely log in, access protected dashboard pages, manage application data, and interact with dynamic dashboard features.
-
-      During development, I gained hands-on experience with the Next.js App Router, React Server Components, server actions, TypeScript type safety, PostgreSQL database operations, authentication workflows, and scalable application architecture.
-
-      This project strengthened my understanding of connecting frontend components, backend logic, and databases together to create complete full-stack applications. 
-      Note: TO access the Admin Dashboard: Please use the below email and Password => email: 'user@nextmail.com', password: '123456'`,
+ The project demonstrates how to build a production-style application using modern full-stack development practices. 
+ It includes secure authentication, protected routes, database integration, CRUD operations, form validation, and responsive dashboard interfaces.
+ Admins can securely log in, access protected dashboard pages, manage application data, and interact with dynamic dashboard features.
+ During development, I gained hands-on experience with the Next.js App Router, React Server Components, server actions, TypeScript type safety, PostgreSQL database operations, authentication workflows, and scalable application architecture.
+ This project strengthened my understanding of connecting frontend components, backend logic, and databases together to create complete full-stack applications. 
+      
+ Note: Admin Dashboard demo credentials included below. 
+ => email: 'user@nextmail.com'  
+ => password: '123456'`,
 
     features: [
       "User authentication and secure login system",
@@ -189,8 +185,8 @@ export const myProjects: Project[] = [
     image: "/projects/practice/investment-calculator-logo.png",
     short_description:
       "A React + Vite investment calculator that calculates yearly investment growth based on user inputs.",
-    description:
-      "It is a React.js Vite project that accepts initial investment, duration, interest rate, and annual contribution. It calculates the investment growth and displays yearly results in a table.",
+    description: `It is a React.js Vite project that accepts initial investment, duration, interest rate, and annual contribution.
+       It calculates the investment growth and displays yearly results in a table.`,
     features: [
       "Calculate investment growth based on user inputs",
       "Display yearly investment results in a table",
@@ -251,8 +247,8 @@ export const myProjects: Project[] = [
     image: "/projects/practice/cart.png",
     short_description:
       "A React shopping cart application that manages products and calculates total prices.",
-    description:
-      "It is a React.js Vite project that displays products with images and descriptions. Users can add products to the cart, increase quantity, decrease quantity, and calculate total price.",
+    description: `It is a React.js Vite project that displays products with images and descriptions. 
+      Users can add products to the cart, increase quantity, decrease quantity, and calculate total price.`,
     features: [
       "Display product list",
       "Add products to cart",

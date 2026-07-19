@@ -1,4 +1,3 @@
-// for frontend
 import {
   // for frontend
   TbBrandTypescript,
@@ -6,26 +5,26 @@ import {
   TbBrandNextjs,
   TbBrandTailwind,
   TbBrandRedux,
-  TbBrandGit,
   TbBrandFigma,
   TbBrandJavascript,
   TbBrandHtml5,
   TbBrandCss3,
   //for backend
-  TbBrandNodejs,
   TbBrandMysql,
   TbBrandMongodb,
-  TbBrandPrisma,
   TbBrandAuth0,
-  // others
+  // for others
+  TbBrandWordpress,
   TbBrandGithub,
   TbBrandVscode,
   TbBrandVercel,
-  TbBrandNpm,
-  TbBrandWordpress,
 } from "react-icons/tb";
 
+import { SiPostman, SiNetlify, SiPostgresql } from "react-icons/si";
+import { FaServer, FaLock } from "react-icons/fa";
 import { IconType } from "react-icons";
+
+export type level = "Advanced" | "Intermediate" | "Beginner";
 
 export type Skill = {
   name: string;
@@ -36,40 +35,32 @@ export type Skill = {
 export const frontendSkills: Skill[] = [
   { name: "HTML", level: "Advanced", icon: TbBrandHtml5 },
   { name: "CSS", level: "Advanced", icon: TbBrandCss3 },
-  { name: "JavaScript", level: "Advanced", icon: TbBrandJavascript },
+  { name: "JavaScript", level: "Intermediate", icon: TbBrandJavascript },
   { name: "TypeScript", level: "Intermediate", icon: TbBrandTypescript },
-  { name: "React", level: "Advanced", icon: TbBrandReact },
+  { name: "React", level: "Intermediate", icon: TbBrandReact },
   { name: "Next.js", level: "Intermediate", icon: TbBrandNextjs },
-  { name: "Tailwind CSS", level: "Advanced", icon: TbBrandTailwind },
+  { name: "Tailwind CSS", level: "Intermediate", icon: TbBrandTailwind },
   { name: "Redux", level: "Intermediate", icon: TbBrandRedux },
-  { name: "Git", level: "Intermediate", icon: TbBrandGit },
   { name: "Figma", level: "Beginner", icon: TbBrandFigma },
 ];
 
 export const backendSkills: Skill[] = [
-  { name: "Node.js", level: "Intermediate", icon: TbBrandNodejs },
-  { name: "MySQL", level: "Intermediate", icon: TbBrandMysql },
-  { name: "MongoDB", level: "Intermediate", icon: TbBrandMongodb },
-  { name: "Prisma", level: "Beginner", icon: TbBrandPrisma },
   { name: "JWT Authentication", level: "Intermediate", icon: TbBrandAuth0 },
-  // important
-  //  { name: "Express.js", level: "Beginner", icon: null },//
-  // { name: "REST API", level: "Advanced", icon: null}, //
-  // { name: "GraphQL", level: "Beginner", icon: null },
-  // { name: "PostgreSQL", level: "Intermediate", icon: null  },
+  { name: "NextAuth", level: "Intermediate", icon: FaLock },
+  { name: "REST API", level: "Intermediate", icon: FaServer },
+  { name: "MongoDB", level: "Beginner", icon: TbBrandMongodb },
+  { name: "PostgreSQL", level: "Intermediate", icon: SiPostgresql },
+  { name: "MySQL", level: "Beginner", icon: TbBrandMysql },
 ];
 
 export const toolsSkills: Skill[] = [
   { name: "WordPress", level: "Intermediate", icon: TbBrandWordpress },
-  { name: "Git", level: "Intermediate", icon: TbBrandGit },
-  { name: "GitHub", level: "Advanced", icon: TbBrandGithub },
-  { name: "VS Code", level: "Advanced", icon: TbBrandVscode },
-  { name: "Figma", level: "Beginner", icon: TbBrandFigma },
+  { name: "GitHub", level: "Intermediate", icon: TbBrandGithub },
+  { name: "VS Code", level: "Intermediate", icon: TbBrandVscode },
   { name: "Vercel", level: "Intermediate", icon: TbBrandVercel },
-  { name: "NPM", level: "Advanced", icon: TbBrandNpm },
-  // important
-  //  { name: "Postman", level: "Intermediate", icon: null },
-  // { name: "Netlify", level: "Beginner", icon: null },
+  { name: "Postman", level: "Intermediate", icon: SiPostman },
+  { name: "Netlify", level: "Intermediate", icon: SiNetlify },
+  { name: "Figma", level: "Beginner", icon: TbBrandFigma },
 ];
 
 export type SkillGroup = {

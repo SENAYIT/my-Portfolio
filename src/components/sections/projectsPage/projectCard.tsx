@@ -40,7 +40,9 @@ export default function Projectcard({ project }: { project: Project }) {
         {/* project for content */}
 
         <h3 className="text-white">{name}</h3>
-        <p className="text-gray-500 text-wrap">{short_description}</p>
+        <p className="text-gray-500 text-wrap whitespace-pre-line">
+          {short_description}
+        </p>
 
         {/* for project links tools */}
         <div className="flex gap-2 flex-wrap">

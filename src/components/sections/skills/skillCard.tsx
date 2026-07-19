@@ -19,7 +19,11 @@ export default function SkillCard({ skill }: { skill: Skill }) {
           {skill.name}
         </p>
 
-        <p className="text-sm font-semibold text-green-500">{skill.level}</p>
+        <p
+          className={`text-sm font-light ${skill.level === "Advanced" ? "text-violet-400" : skill.level === "Intermediate" ? " text-teal-400" : skill.level === "Beginner" ? " text-rose-300" : " text-slate-300"}`}
+        >
+          {skill.level}
+        </p>
       </div>
     </SkillTechCardUI>
   );

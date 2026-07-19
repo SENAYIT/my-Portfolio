@@ -40,7 +40,7 @@ export default function ExperienceItem({ exp }: { exp: Experience }) {
         </div>
 
         {/* Description */}
-        <p className="mt-3 text-gray-300 text-sm leading-relaxed">
+        <p className="mt-3 text-gray-300 text-sm leading-relaxed whitespace-pre-line">
           {exp.description}
         </p>
 
