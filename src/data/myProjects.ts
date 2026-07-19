@@ -169,7 +169,7 @@ The project focuses on building a clean, responsive, and user-friendly website w
       "PostgreSQL",
       "Zod",
       "Vercel",
-      "Git",
+      "GitHub",
     ],
 
     learning:
