@@ -8,7 +8,8 @@ export default function ProjectsPageSection() {
       <PageHeader
         headerTitle="Projects"
         headerHeading="Featured Projects"
-        headerSubHeading="Explore my latest work and contributions"
+        headerSubHeading="Explore the projects I've built throughout my learning journey."
+        // headerSubHeading="Explore my latest work and contributions"
         className=""
       />
 

@@ -5,7 +5,7 @@ import { skills } from "./mySkills"; // it is data with out icon
 import { experiences } from "./myExperciences";
 import { myProjects } from "./myProjects";
 import { services } from "./myOfferingServices";
-import { mySocialLinkData } from "./socialLinksData";
+import { mySocialLinkData } from "./socialLinksData"; // it is a data with out icon
 
 export type Mydata = {
   name: string;
@@ -37,7 +37,7 @@ export const myData: Mydata = {
   totalExperiences: "1 + years",
   projects: myProjects,
   myServices: services,
-  currentRole: "Getting exp. on Real Projects",
+  currentRole: "Available for Frontend Roles",
   availability: "Open to opportunities",
   email: "senaitaweke2019@gmail.com",
   phoneNumber: "+251 938 957 338",

@@ -45,7 +45,7 @@ export const aboutMeData: highlightProps[] = [
   },
   {
     iconName: BadgeCheck,
-    title: "Current Role",
+    title: "Current",
     shortDescription: currentRole,
   },
 ];
