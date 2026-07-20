@@ -16,8 +16,8 @@ export default function SocialMediaIcons({
               ? `https://mail.google.com/mail/?view=cm&fs=1&to=${link.href}`
               : link.href
           }
-          target={link.type === "email" ? undefined : "_blank"}
-          rel={link.type === "email" ? undefined : "noopener noreferrer"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
         >
           {link.icon && (
             <link.icon className="w-7 h-7 md:w-8 md:h-8 text-gray-400 hover:text-cyan-400" />
