@@ -23,26 +23,31 @@ export const socialLinkData: SocialLinkData[] = [
   {
     name: "Github",
     href: github,
+    type: "external ",
     icon: FaGithub,
   },
   {
     name: "Linkedin",
     href: linkedin,
+    type: "external ",
     icon: FaLinkedin,
   },
   {
     name: "Telegram",
     href: telegram,
+    type: "external ",
     icon: FaTelegram,
   },
   {
     name: "WhatsApp",
     href: whatsApp, // Replace with your number
+    type: "external ",
     icon: FaWhatsapp,
   },
   {
     name: "Envelope",
     href: email,
+    type: "email",
     icon: FaEnvelope,
   },
 ];

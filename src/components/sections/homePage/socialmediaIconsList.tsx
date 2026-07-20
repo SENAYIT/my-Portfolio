@@ -11,7 +11,11 @@ export default function SocialMediaIcons({
       {socialLinksData.map((link, index) => (
         <SocialLinks
           key={index}
-          href={link.type === "email" ? `mailto:${link.href}` : link.href}
+          href={
+            link.type === "email"
+              ? `https://mail.google.com/mail/?view=cm&fs=1&to=${link.href}`
+              : link.href
+          }
           target={link.type === "email" ? undefined : "_blank"}
           rel={link.type === "email" ? undefined : "noopener noreferrer"}
         >

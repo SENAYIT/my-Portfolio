@@ -4,14 +4,14 @@ export type MySocialLinkDataProps = {
   telegram: string;
   whatsApp: string;
   email: string;
-  instagram: string;
-  facebook: string;
+  // instagram: string;
+  // facebook: string;
 };
 
 export const mySocialLinkData: MySocialLinkDataProps = {
   github: "https://github.com/SENAYIT/",
 
-  linkedin: "www.linkedin.com/in/senayit-awoke-021094229",
+  linkedin: "https://www.linkedin.com/in/senayit-awoke-021094229",
 
   telegram: "https://t.me/Nipi_el",
 
@@ -19,7 +19,7 @@ export const mySocialLinkData: MySocialLinkDataProps = {
 
   email: "senaitaweke2019@gmail.com",
 
-  instagram: "https://instagram.com",
+  // instagram: "https://instagram.com",
 
-  facebook: "https://facebook.com",
+  // facebook: "https://facebook.com",
 };
